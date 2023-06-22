@@ -1,1 +1,53 @@
+     /*backgroud class text*/
+     .text{
+        background-color: burlywood;
+     }
+     /*backgroud class text*/
+     div {
+            background-color : BurlyWood
+        }
+        /*memindahkan text h1 ke tengah WEB*/
+        h1 {
+            text-align: center;
+        }
+        /*menambahkan picture pada background*/
+        body {
+            background-image: url("temperatur.jpg");
+        }
+        /*memindahkan text div class inSuhu menjadi Inline dengan Flex*/
+        .inSuhu {
+    display: flex;
+        }
+        /*memindahkan text class inSuhu1 300px*/
+    .inSuhu1 {
+    text-indent: 300px;
+    }
+    /*memindahkan text div class button menjadi Inline dengan Flex*/
+    .button {
+        display: flex;
+    }
+    /*memindahkan text div class button 460px*/
+    .button1 {
+        text-indent: 460px;
+    }
+    /*memindahkan text div class result menjadi Inline dengan Flex*/
+    .result {
+        display: flex;
+        text-indent: 0px;
+    }
+    /*memindahkan text div class result1 220px*/
+    .result1 {
+       
+        text-indent: 220px;
+    }
+    /*memindahkan text div class rumus menjadi Inline dengan Flex*/
+    .rumus {
+        display: flex;
+        text-indent: 0px;
+    }
+    /*memindahkan text div class rumus1 310px*/
+    .rumus1 {
+        
+        text-indent: 310px;
+    }
 
