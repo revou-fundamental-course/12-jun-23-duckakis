@@ -1,1 +1,46 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+<title>Konversi Suhu °C & °F</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+<body>
+    <h1>CALCULATOR SUHU (°C & °F)</h1>
+    <br>
+<div>
+<div class="inSuhu">
+<!-- membuat kolom input Suhu awal -->
+Input Suhu (°C) <input id="suhuCel" placeholder="input Suhu °C" type="number"/>
+<div class ="inSuhu1"> Input Suhu (°F)<input id="suhuFar" placeholder="input Suhu °F" type="number"/>
+</div>
+</div> <br>
+<div class="button">
+<!-- membuat event button onclick dengan memanggil funcion yang telah dibuat -->
+<button onclick = "konversi()">Konversi ke (°F)</button>
+<div class="button1"> <button onclick = "konversi2()">Konversi ke (°C)</button>
+</div>
+</div>
+<br>
+<div class="result">
+<!-- membuat kolom display dari hasil Konversi ke Suhu °F -->
+Hasil Konversi ke Suhu (°F) <input id="display" disabled>
+<div class="result1"> Hasil Konversi ke Suhu (°C) <input id="display3" disabled>
+</div>
+</div>
+<br>
+<div class="rumus">
+<!-- membuat kolom display cara Kalkulasi hasil Konversi ke Suhu °F -->
+Cara Kalkulasi<input id="display2" disabled>
+<div class="rumus1">Cara Kalkulasi<input id="display4" disabled>
+</div>
+</div>
+</div>
+<!-- menambah Rumus Konversi -->
+<div class="text">
+<h2>RUMUS °C "<--->" °F dan sebalik nya </h2>
+<p>°C = 5/9 x (°F – 32).</p>
+<p>°F = (9/5 x °C) + 32.</p>
+</div>
+</body>
+</html>
